@@ -6,8 +6,15 @@ const root = createRoot(document.getElementById("root"));
 function Header(){
   return(
     <header>
-        <img src="react-logo.svg" width="40px" alt="react logo"/>
-      </header>
+      <img className="nav-logo" src="react-logo.svg" alt="react logo"/>
+      <nav className="nav-list">
+        <ul>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
   )
 }
 
@@ -15,7 +22,7 @@ function MainContent(){
   return(
     <main>
       <h1>Fun facts about React:</h1>
-      <ol>
+      <ol className="facts-list">
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
         <li>Has well over 200K stars on GitHub</li>
@@ -29,7 +36,7 @@ function MainContent(){
 function Footer(){
   return(
     <footer>
-      <small>© 2024 Aras development. All rights reserved.</small>
+      <span>© 2024 Aras development. All rights reserved.</span>
     </footer>
   )
 }
