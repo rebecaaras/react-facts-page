@@ -40,9 +40,9 @@ main {
 .bg-image {
     opacity: 0.2;
     height: 500px;
-    position: absolute;
+    position: fixed;
     top: 15%;
-    right: 0%;
+    left: 50%;
     z-index: -1;
 }
 
@@ -69,7 +69,7 @@ footer {
     bottom: 0;
     font-size: smaller;
     margin-bottom: 20px;
-    width:90vw;
+    width:100vw;
     text-align: center;
     color: #a1a9b5;
     opacity: 0.5;
