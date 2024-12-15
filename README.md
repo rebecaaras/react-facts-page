@@ -1,8 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Facts
 
-Currently, two official plugins are available:
+Página estática construída no React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack utilizada
+
+**Front-end:** React.js, Vite (setup do projeto), CSS, JavaScript;
+
+## Funcionalidades
+
+- Responsivo para telas de diferentes tamanhos;
+
+## Deploy
+
+Para fazer o deploy desse projeto localmente:
+
+```bash
+  git clone https://github.com/rebecaaras/react-facts-page.git
+  cd react-facts-page
+```
+
+Instale as dependências:
+```bash
+npm install
+```
+
+Execute localmente:
+```bash
+npm run dev
+```
+Acesse em: http://localhost:5173/
+
+## Demonstração
+<figure>
+  <img src="./images/mobile-preview.png" alt="mobile preview" height="350"/>
+  <figcaption>Mobile</figcaption>
+</figure>
+<figure>
+  <img src="./images/half-desktop-preview.png" alt="half-desktop preview" height="350"/>
+  <figcaption>Tela desktop dividida</figcaption>
+</figure>
+<figure>
+  <img src="./images/desktop-preview.png" alt="desktop preview" width="600"/>
+  <figcaption>Desktop</figcaption>
+</figure>
+
+
